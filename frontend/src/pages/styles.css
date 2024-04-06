@@ -1,0 +1,69 @@
+/* Restablecer los márgenes y rellenos predeterminados */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del cuerpo */
+body {
+    background-color: gainsboro;
+    font-family: Arial, sans-serif; /* Cambio de la fuente predeterminada */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: rgb(83, 148, 75);
+    padding: 10px 20px; /* Aumentar el espacio interno */
+    text-align: center; /* Centrar el contenido */
+}
+
+/* Estilo de la lista de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Aumentar el espacio entre elementos */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Cambiar el color del texto */
+    font-weight: bold; /* Hacer el texto en negrita */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayar en el hover */
+}
+
+/* Estilo del contenedor principal */
+.container {
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interior */
+    text-align: center; /* Centrar el contenido */
+    max-width: 800px; /* Limitar el ancho */
+    background-color: #eaeaea; /* Color de fondo blanco */
+    border-radius: 10px; /* Agregar bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+
+/* Estilo de la tabla */
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Estilo de fondo para las celdas */
+td {
+    background-color: lightgray; /* Cambia este color según tu preferencia */
+}
